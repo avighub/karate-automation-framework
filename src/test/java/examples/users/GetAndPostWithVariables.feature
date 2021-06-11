@@ -5,7 +5,7 @@ Feature: To Test GET and POST methods
   Background: 
     * url BaseURL
     * header Authorization = AuthToken
-    * configure proxy = 'http://gateway.schneider.zscaler.net:80/'
+    * configure proxy = 'proxy.com'
 
   @regression
   Scenario: Test GET method
